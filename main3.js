@@ -395,7 +395,7 @@ function generateHealthBar(index) {
 
 function generateEnemy(enemy,shadowGenerator){
 
-  for(let i = 2; i<=2; i++){
+  for(let i = 2; i<=12; i++){
     let healthBar = generateHealthBar(i);
     let enem = enemy.clone("enem" + i, null);
     enem.position.z=(Math.random()*200+40) - (Math.random()*200+40);
